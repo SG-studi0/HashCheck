@@ -1,7 +1,0 @@
- get-filehash -algorithm sha512 
- get-filehash file name -algorithm sha512 , md5 
-
-
-$x = 'EF57176FCB01F01F4E87DBBA9B87AC6F'
-$y = get-fileHash mysql-installer-community-8.0.31.0.msi -algorithm MD5
-$y.hash -eq $x

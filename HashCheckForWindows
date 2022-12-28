@@ -1,0 +1,7 @@
+get-filehash -algorithm sha512 
+get-filehash file name -algorithm sha512 , md5 ,sha256
+
+
+$x = 'public has value '
+$y = get-fileHash <place the file name here> -algorithm MD5 , sha512 , sha256
+$y.hash -eq $x
